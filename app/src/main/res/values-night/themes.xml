@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="number">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/numbers_dark</item>
+        <item name="android:fillColor">@color/white</item>
+    </style>
+
+    <style name="operators">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/arithmetic_symbols_dark</item>
+    </style>
+
+    <style name="symbol">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/symbols_dark</item>
+    </style>
+
+    <style name="del">
+        <item name="android:src">@drawable/delete_left_dark</item>
+        <item name="android:background">@drawable/numbers_dark</item>
+    </style>
+
+    <style name="lowerlayout">
+        <item name="android:background">#252628</item>
+    </style>
+
+    <style name="line">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="upperlayout">
+        <item name="android:background">#1b1c1e</item>
+    </style>
+
+    <style name="finalanswer">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text">
+        <item name="android:text">Switch to Light</item>
+    </style>
+</resources>
